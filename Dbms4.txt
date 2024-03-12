@@ -1,0 +1,28 @@
+a. altering a table
+
+create database neeraj ;
+show databases;
+use neeraj;
+create table c1( name text, age integer,studentid integer);
+create table c4( name text not null, empid integer primary key,experience integer);
+show tables ;
+create table student(name text,age integer,phno integer);
+insert into student values('neeraj',51,001);
+select * from student;
+alter table student add (adhaeunm integer);
+select * from student;
+
+b. dropping/truncating/renaming tables
+
+create database neeraj ;
+show databases;
+use neeraj;
+create table c1( name text, age integer,studentid integer);
+create table c4( name text not null, empid integer primary key,experience integer);
+show tables ;
+create table student(name text,age integer,phno integer);
+insert into student values('neeraj',51,001);
+truncate tables student;
+select * from student;
+alter table student rename to fyds;
+show tables;

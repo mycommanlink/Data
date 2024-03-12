@@ -1,0 +1,18 @@
+a.MySql compiler
+
+b.MySql compiler [Add logical opreater and]
+
+c1.simple queries with aggregate function
+
+create database college2;
+use college2;
+create table stud (rollno integer primary key, name text);
+insert into stud values (1, "Neeraj");
+insert into stude values(9, "Chinmay");
+insert into stud values(17, "Nidhay");
+select * from stud;
+select * from stud order b rollno;
+
+c2. Same code just add...
+
+select * from stud order b rollno desc;

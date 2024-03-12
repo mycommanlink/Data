@@ -1,0 +1,25 @@
+a. data functions
+
+Query:
+
+select now()
+
+select curdate();
+
+select current_time();
+
+
+b. string functions
+
+Query:
+
+Select char_length("hello")
+
+Select CONCAT_WS('_','neeraj','shah');
+
+Select lcase('Neeraj');
+
+select left("Neeraj Shah",5);
+
+select locate("shah", "Neeraj Sanjay Shah");
+
